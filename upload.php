@@ -7,7 +7,7 @@ if(isset($_POST["submit"]))
 
                $url='localhost';
 $username='u656699139_lms2';
-$password='9971217372Fk';
+$password='**********';
 $conn=mysqli_connect($url,$username,$password,"u656699139_lms2");
           if(!$conn){
           die('Could not Connect My Sql:' .mysqli_error());
